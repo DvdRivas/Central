@@ -22,6 +22,7 @@ module biblioteca::biblioteca {
         disponible: bool,
     }
 
+
     // Función para crear la biblioteca con un nombre 
     public fun crear_biblioteca(nombre: String, ctx: &mut TxContext) {
         let libros = vec_map::empty<String, Libro>();
